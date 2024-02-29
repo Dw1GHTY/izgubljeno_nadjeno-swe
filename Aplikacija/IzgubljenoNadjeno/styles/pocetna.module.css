@@ -1,0 +1,24 @@
+.flexbox{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+
+@media only screen and (min-width: 600px){
+  margin-left: 0%;
+}
+}
+
+
+.naslov{
+  background: -webkit-linear-gradient(#8d3baa, darkmagenta);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-size: large;
+
+margin-bottom: 5px;
+}
+
+

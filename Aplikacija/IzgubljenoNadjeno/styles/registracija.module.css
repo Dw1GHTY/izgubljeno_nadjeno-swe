@@ -1,0 +1,178 @@
+body.activeModal {
+    overflow-y: hidden;
+}
+
+.fotografija{
+    text-align:center;
+}
+
+.labelica{
+    width:100px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.naslov2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 5px;
+    color: rgba(49,49,49,0.8);
+}
+
+.naslov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 5px;
+    color: rgba(49,49,49,0.8);
+}
+
+.ovo{
+    
+    display: none;
+}
+
+.labele{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    text-align: right;
+    padding-right: 5px;
+    color:grey;
+}
+
+
+
+
+
+.tabela{
+ display:grid;
+ grid-template-columns: auto 60% 5%;
+ padding-top: 30px;
+ row-gap:15px;
+ column-gap: 10px;
+}
+
+
+
+.btnModal {
+    padding: 10px 20px;
+    display: block;
+    margin: 10w3px auto 0;
+    font-size: 18px;
+
+}
+
+.prijava{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+
+.unos{
+    font-size:20px;
+    border-color: white;
+    border-radius: 20px;
+
+    outline-color: grey;
+    padding: 5px;
+    padding-left: 10px;
+    margin-left:3px;
+}
+.unos:focus{
+    box-shadow: 0 5px 15px -3px #8D3BAA, 0 4px 6px -2px #8D3BAA;
+   
+}
+
+.btnModal2:hover{
+    box-shadow: 0 5px 15px -3px #8D3BAA, 0 4px 6px -2px #8D3BAA;
+    background-color: lightgray;
+}
+
+.closeModal:hover{
+    box-shadow: 0 5px 15px -3px #8D3BAA, 0 4px 6px -2px #8D3BAA;
+    background-color: lightgray;
+}
+
+.linkic{
+    color:#8D3BAA;
+    cursor: pointer;
+}
+
+.btnModal2 {
+    padding: 10px 20px;
+   
+    color: rgba(49,49,49,0.8);
+    font-size: 18px;
+    position: center;
+    border-radius:70px;
+    border-color: white;
+    bottom: 10px;
+    right: 10px;
+    cursor:pointer;
+    margin-bottom: 5px;
+     margin-top: 10px;
+}
+
+.slika{
+    width:100px; height:100px;
+}
+
+.naslov3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3vh;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 5px;
+    color:#8D3BAA;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.modalContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5%;
+    line-height: 1.4;
+    background: white;
+    padding: 20px 28px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0 5px 15px -3px #8D3BAA, 0 4px 6px -2px #8D3BAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px 5px 7px;
+    font-size:15px;
+    border-radius: 8px;
+    border-color: white;
+    cursor:pointer;
+    color:grey;
+}

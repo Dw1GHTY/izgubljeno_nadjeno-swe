@@ -1,0 +1,229 @@
+.adminovaKartica{
+    margin: 2vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3vw;
+    height: 100%;
+    background-color: #8c3baa5f;
+    /* background-size: cover;
+    background-position: center;
+    background-image: 
+    url("https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg?auto=compress&cs=tinysrgb&w=600");
+    url("https://images.pexels.com/photos/7130466/pexels-photo-7130466.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+
+}
+
+
+.grafikoni{
+    margin-left: 10vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10vw;
+    
+}
+
+.slikaDiv{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-style:solid;
+  border-width:0.6vw;
+  border-color: white;
+}
+
+.pita{
+    margin-top: 5vw;
+}
+
+.opis{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    margin: 0px;
+    margin-right: 8vw;
+    width:50%;
+    border-width: 0.3vw;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-right: 0px;
+}
+
+.vlasnik{
+    padding-top: 0.5vw;
+    width: 20%;
+    margin: 0px;
+    border-top-right-radius: 3vw;
+    border-width: 0.3vw;
+    border-bottom-right-radius: 3vw;
+    border-left: 0px;
+}
+
+.oglas{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.5vw;
+    /* background: hsla(0, 0%, 65%, 0.5) 50%; */
+    border-color: white;
+    border-style: solid;
+    border-width: 0.15vw;
+    color:white;
+    margin: 3vh;
+    border-radius: 3vw;
+    padding-bottom: 0.5vh;
+}
+
+.divOglasi{
+    margin-left: 6vw;
+    margin-top: 2vw;
+    border-radius: 3vw;
+    background-color: #8c3baa5f;
+    /* background-size: cover;
+    background-position: center;
+    background-image: 
+    /* url("https://images.pexels.com/photos/7130466/pexels-photo-7130466.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    /*url("https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+
+}
+
+.icon{
+    height: 3.5vh;
+    cursor: pointer;
+}
+.Icon{
+    height: 3.5vh;
+    cursor: pointer;
+    color: white;
+}
+.icon:hover{
+    height: 4vh;
+}
+
+.nestani{
+    @media (max-width: 800px) {
+        display:none;
+    } 
+}
+
+.Menu{
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+}
+
+.MenuItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5px;
+    width: fit-content;
+    font-size: 85%;
+    width: 8.2vw;
+    cursor: pointer;
+}
+
+.MenuItem:hover{
+    background-color: #8D3BAA;
+    /*background-image: */
+    /* url("https://images.pexels.com/photos/7130466/pexels-photo-7130466.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    /*url("https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg?auto=compress&cs=tinysrgb&w=600");*/
+}
+
+.MenuItemLabel{
+    cursor: pointer;
+    color: white;
+}
+
+.oglas:hover{
+    background: white;
+    
+    border-color: transparent;
+    color:black;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    url("https://images.pexels.com/photos/7130540/pexels-photo-7130540.jpeg?auto=compress&cs=tinysrgb&w=600");
+    /* url("https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+
+}
+
+.osoba{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.5vw;
+    /* background: hsla(0, 0%, 65%, 0.5) 50%; */
+    border-color: white;
+    border-style: solid;
+    border-width: 0.15vw;
+    color:white;
+    margin: 3vh;
+    border-radius: 3vw;
+    padding-bottom: 0.5vh;
+}
+
+.slika{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    margin: 0px;
+    width:15%;
+    border-width: 0.3vw;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-right: 0px;
+}
+
+.h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.osoba:hover{
+    border-color: black;
+    color:black;
+}
+
+.ime{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    margin: 0px;
+    width:15%;
+    border-width: 0.3vw;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-right: 0px;
+}
+
+.prezime{
+    padding-top: 0.5vw;
+    width: 20%;
+    margin: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.email{
+    padding-top: 0.5vw;
+    width: 35%;
+    margin: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.username{
+    padding-top: 0.5vw;
+    width: 20%;
+    margin: 0px;
+    border-top-right-radius: 3vw;
+    border-width: 0.3vw;
+    border-bottom-right-radius: 3vw;
+    border-left: 0px;
+}

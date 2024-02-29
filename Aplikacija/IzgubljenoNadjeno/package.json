@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@react-google-maps/api": "^2.18.1",
+    "chart.js": "^4.3.0",
+    "firebase": "^9.22.1",
+    "google-maps-react-markers": "^1.2.4",
+    "next": "^13.3.0",
+    "node-modules": "^1.0.1",
+    "nodemailer": "^6.9.3",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^6.12.1",
+    "use-places-autocomplete": "^4.0.0"
+  }
+}

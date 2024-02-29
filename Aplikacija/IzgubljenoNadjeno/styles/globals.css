@@ -1,0 +1,47 @@
+.adminIndex{
+    padding-right: 20%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 1vw;
+    width: max-content;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    url("https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    /*url("https://images.pexels.com/photos/7130540/pexels-photo-7130540.jpeg?auto=compress&cs=tinysrgb&w=600");*/
+}
+
+
+.appContainer{
+    display: grid;
+    grid-template-rows: 7 3;
+}
+ .desno{
+    position:fixed;
+    right:0;
+    width:30%;
+    /*margin-right: 5%;*/
+} 
+
+input{
+    background-color: transparent;
+    z-index: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+/**************MAPA****************/
+.map-container{
+    margin-top: 15vh;
+    width:70%;
+    height: 40vh;
+    border-radius: 5%;
+}

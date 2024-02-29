@@ -1,0 +1,130 @@
+.tagbarContainer {
+
+    /*display: none;
+    position: fixed;
+    display: inline;*/
+
+    width: 100%;
+    padding-right: 30%;
+    margin-top: 1.25rem;
+    /*
+    @media (min-width: 1024px) {
+        display: inline;
+
+    }*/
+
+    /*
+    @media (min-width: 1280px) {
+        width: auto;
+
+    }*/
+
+}
+
+.nestani {
+    @media (max-width: 800px) {
+        display: none;
+
+    }
+}
+
+/**********************SEARCH KOMPONENTA******************/
+
+.searchbarContainer {
+
+    width: 90%;
+    top: 0;
+    position: sticky;
+
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    background-color: transparent;
+
+    @media (min-width: 1000px) {
+        width: 15vw;
+
+    }
+
+}
+
+.searchDiv {
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    border-radius: 9999px;
+    position: relative;
+}
+
+.searchIcon {
+    z-index: -10;
+    color: #8D3BAA;
+    height: 1.25rem;
+
+}
+
+.searchBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 9999px;
+    padding-left: 2.75rem;
+    color: #374151;
+    border-color: black;
+    background-color: none;
+
+}
+.noStyle{
+    border: none;
+    background-color: transparent;
+}
+.hover:hover{
+    background: hsla(0, 0%, 65%, 0.5);
+    cursor: pointer;
+    color: darkmagenta;
+    margin: 0 0 0 0;
+    border-radius: 98%
+}
+
+/* .searchBox:focus {
+    box-shadow: 0 10px 15px -3px #8D3BAA, 0 4px 6px -2px #8D3BAA;
+    border: darkmagenta 2.5px solid;
+    outline: none;
+    z-index: -40;
+}  */
+
+/*************************************************************/
+
+/*************************TAGOVI******************************/
+.tagsContainer {
+    margin-top: 5vh;
+    width: 22vw;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 5%;
+    margin-right: 5vw;
+}
+
+.tagName {
+    padding-left: 1%;
+}
+
+.hoverEffect:hover {
+    background-color: #a6a6a680;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+/*******************************MAPA****************************/
+
+.tagbarMapContainer {
+    margin-top: 2%;
+    border-radius: 15px;
+}

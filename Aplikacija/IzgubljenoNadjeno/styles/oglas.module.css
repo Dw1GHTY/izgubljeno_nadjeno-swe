@@ -1,0 +1,364 @@
+.border{
+    border: 0.1vw darkgrey solid;
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+.ceoOglas{
+
+    @media only screen and (max-width: 800px){
+        padding: 1rem;
+      }
+    padding: 10px 10px 20px 10px;
+    
+}
+
+.ceoOglas form textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.NapraviOglas{
+    @media only screen and (max-width: 800px){
+        width: 61vw;
+        max-width: 61vw;
+      }
+    width: 31vw;
+    min-width: 31vw;
+    resize: none;
+}
+
+.NapraviOglas form textarea{
+    width: 100%;
+}
+.sirina100{
+    width: 100%;
+}
+
+.flexBoxRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.flexBoxCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5px;
+}
+
+/*profilna slika postavljaca oglasa*/
+.pfp{
+    width: 3.5rem;
+    height: 3.5rem;
+    @media only screen and (max-width: 1200px){
+        width: 3rem;
+        height: 3rem;
+      }
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
+    aspect-ratio: 1;
+    
+}
+
+.OpisOglasa{
+    @media only screen and (max-width: 800px){
+        width: 60vw;
+      }
+    width: 25vw;
+    padding-top: 20px;
+    text-align: justify;
+}
+.Nestani{
+    @media only screen and (max-width: 600px){
+    display:none;
+      }
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
+
+
+.slikaOglasa{
+    @media only screen and (max-width: 800px){
+        width: 60vw;
+        height: 60vw;
+      }
+    width: 30vw;
+    height: 30vw;
+    border: 0.1vw darkgrey solid;
+    
+    border-radius: 10px; 
+    /* border-radius: 1vw; */
+    object-fit: cover;
+}
+.link:hover{
+    cursor: pointer;
+}
+/*za tagove*/
+.lista{                     
+    list-style: none;
+    padding-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.lista li{
+    display: inline;
+    margin-right: 5px;
+    
+    
+}
+
+.lista a{
+    color: gray;
+    text-decoration: none;
+    
+}
+
+/*poruka i podeli dugme*/
+.dugme{
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #8d3baa;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.dugme:hover{
+    background: hsla(0, 0%, 65%, 0.5);
+    cursor: pointer;
+    color: darkmagenta;
+}
+
+
+.dugmeSlika{
+    height: 1.5rem; 
+    width: 1.5rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.korisnickoIme{
+    display: inline;
+    font-weight:bolder;
+}
+
+
+.vreme{
+    color: gray;
+    @media only screen and (min-width: 800px){
+        display:inline;
+    }
+    @media only screen and (min-width: 800px){
+        display:none;
+    }
+    
+    @media only screen and (min-width: 1200px){
+        display: inline;
+    }
+}
+.popupDivBG{
+    position: fixed;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popupDiv{
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px 30px 10px;  
+    flex-wrap: wrap; 
+}
+
+
+.popupDiv h2{
+    margin-left: 20px;
+    width: 70%;
+}
+
+.popupDugme{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin-top: -10px;
+    color:gray;
+}
+
+.popupDugme:hover{
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.popupSocials{
+    border-radius: 100%;
+    max-height: 80px;
+}
+
+.linkImg{
+    background-color: #8d3baa;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 100%;
+    max-height: 43px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.linkImg:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.popupSocials:hover{
+    cursor: pointer;
+}
+
+.tekstUnetogOglasa{
+    border: none;
+    font-size: large;
+    resize: none;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.tekstUnetogOglasa:focus{
+    outline: none;
+    
+}
+
+.floatDesno{
+    float: right;
+}
+
+.objaviNoviOglasbtn{
+    background-color: #8d3baa;
+    border: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.objaviNoviOglasbtn:hover{
+   background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.sivtekst{
+    color: gray;
+}
+
+.objaviNoviOglasAdd{
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 3px;
+  margin: 0px 3px 0px 3px;
+  border-radius: 10px;
+  float: left;
+  color: #8d3baa;
+}
+
+.poravnaj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minicheckmark{
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 3px;
+    margin: 0px 3px 0px 3px;
+    border-radius: 10px;
+    float: left;
+  }
+  .nasaBoja{
+    color: #8d3baa;
+  }
+  .darkRed{
+    color: brown;
+  }
+  .obicnaLista{
+    list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  }
+
+.objaviNoviOglasAdd:hover{
+    background: hsla(0, 0%, 65%, 0.5);
+    cursor: pointer;
+    color: darkmagenta;
+}
+
+.sakrij{
+    display: none;
+}
+
+/*TAGOVI*/
+.tagsInputContainer{
+    
+    padding: .5em;
+    border-radius: 3px;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+.tagItem{
+    background-color: hsla(0, 0%, 65%, 0.5);
+    display: inline-block;
+    padding: .5em .75em;
+    border-radius: 20px;
+}
+.tagItem .close{
+    height: 20px;
+    width: 20px;
+    background-color: #8d3baa;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5em;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tagItem .close:hover{
+    background-color: darkmagenta;
+}
+
+.tagsInput{
+    flex-grow: 1;
+    padding: .5em 0;
+    border: none;
+    outline: none;
+}
+
